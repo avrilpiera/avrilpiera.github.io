@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+:root {
+    --userColor: #9370DB;
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    transition-duration: 0.6s;
+}
+
+.startPage, .mainPage, .endPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mainPage, .endPage, .creditsDiv {
+    display: none;
+}
+
+.menuButtons {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: flex;
+}
+
+#credits {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.creditsDiv {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 0.7em;
+}
+
+.creditsDiv h4, .creditsDiv button {
+    margin-top: 10px;
+}
+
+.creditsDiv button {
+    padding: 10px;
+    width: 40%;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: #fff;
+}
+
+.startPage * {
+    margin: 5px;
+}
+
+.startPage img {
+   width: 400px;
+}
+
+.startPage h1 {
+    font-size: 4em;
+}
+
+.startPage button {
+    background-color: #FFD700  ;
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+    transition: 0.6s cubic-bezier(0.175, 0.885, 0.98, 1.275);
+    font-size: 1.3em;
+    border: none;
+}
+
+.startPage button:hover {
+    background-color: black;
+    color: white;
+}
+
+.startPage button:hover body {
+    background-color: var(--userColor);
+}
+
+.mainPage h3 {
+    font-size: 2em;
+    margin-bottom: 6px;
+}
+
+.mainPage input {
+    padding: 20px;
+    font-size: 2em;
+}
+
+.mainPage button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 40%;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+    background-color: #FFD700;
+    display: none;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 25px solid #fff;
+    border-top: 25px solid #FFD700;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.endPage h3 {
+    font-size: 1.4em;
+}
+
+.endPage h1 {
+    font-size: 3em;
+}
+
+.endPage #playAgain {
+    margin-top: 10px;
+    padding: 6px;
+    width: 30%;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    background-color: #FFD700;
+    display: none;
+    transition: opacity 1s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    z-index: 2;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease;
+}
+
+.popup-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.popup-text {
+    color: #4b0082;
+    opacity: 0;
+    transition: opacity 2s ease;
+}

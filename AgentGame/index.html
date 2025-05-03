@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Agent - Agent Name Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
 
+    
+    <div class="popup">
+        <img src="Agent 3 Transparent BCKG.png" alt="Agent3" class="popup-image">
+        <p id="popup-text">Hey! Let's give you an agent name! Press Start to begin!</p>
+    </div>
+
+
+    <div class="menuButtons">
+        <button id="credits" onclick="openCredits()">
+            <span class="material-symbols-outlined">
+                info
+            </span>   
+        </button>
+
+    </div>
+
+   
+
+    <div class="creditsDiv">
+        <h2>Thank You</h2> 
+        <p>
+            Special thank you to Fearless Identities INC for bringing the idea to life. The Little Agent is a registered trademark of Generations 5 Enterprises LLC and SRIES Collective INC. This property is owned and operated by SRIES Collective INC. 
+        </p>
+
+        <h2>Credits</h2>
+        <h4>
+            Executive Producer 
+        </h4>
+        <p>Ashlee Jenkins, SRIES Collective INC </p>
+        <h4>Designer</h4>
+        <ul>
+            <li>Taylor Jenkins, SRIES Collective INC</li>
+            <li>Ashlee Jenkins, SRIES Collective INC</li>
+            <li>Dante' Freeland, S.O.L.I.D.S. Leaders INC</li>
+        </ul>
+        <h4>Creative Director and Creator</h4>
+        <p>Alayah Jenkins, LayJs Adventures, SRIES Collective INC</p>
+        <h4>Developer</h4>
+        <p>Avril Piera, Fearless Identities</p>
+        <h4>Composer</h4>
+        <p>Taylyn Jenkins,  SRIES Collective INC</p>
+        <p>Ashlyn Jenkins, SRIES Collective INC</p>
+        <h4>Voice Artist</h4>
+        <p>Alayah Jenkins, LayJs Adventures, SRIES Collective INC</p>
+
+        <button class="close" onclick="closeCredits()">
+            Close
+        </button>
+    </div>
+
+    <div class="startPage">
+        <img src="The Little Agent Trademarked Logo.png" alt="The Little Agent">
+        <h1>Code Name Generator</h1>
+        <button id="startButton">Start</button>
+    </div>
+    
+    <div class="mainPage">
+        <h3>Enter first name:</h3>
+        <input type="text" id="name" placeholder="Enter name">
+        <button id="agentNameButton">Generate Agent Name</button>
+    </div>
+
+    <div class="endPage">
+        <h3>Your agent code name is...</h3>
+        <div class="loader"></div>
+        <h1 id="agentName"></h1>
+        <button id="playAgain" onclick="location.reload()">Play Again</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
