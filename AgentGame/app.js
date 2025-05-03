@@ -26,6 +26,7 @@ window.onload = () => {
 function playAudio() {
     const audio = new Audio('TJ and AJ Theme Beat 0001.mp3');
     audio.play();
+    audio.volume = 0.6;
     var startButton = document.getElementById('startButton');
 
     setTimeout(() => {
