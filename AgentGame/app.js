@@ -1,4 +1,4 @@
-var adjectives = ["Bouncy", "Wiggly", "Goofy", "Zany", "Fluffy", "Silly", "Wacky", "Jumpy", "Snappy", "Loopy", "Nifty", "Peppy", "Giddy", "Grumpy", "Bubbly", "Kooky", "Spunky", "Sneezy", "Smart", "Breezy", "Witty", "Wobbly", "Snoozy", "Wonky", "Jazzy", "Swirly", "Giggly", "Chatty", "Sappy", "Flippy", "Dizzy", "Fuzzy", "Gooey", "Lively", "Mushy", "Dopey", "Happy", "Bashful", "Sleepy", "Plucky", "Snarky", "Zippy", "Cranky", "Gummy", "Zanytastic", "Zanyerific", "Zanyadoodle", "Zanyaroni", "Zanyaroo", "Zanyaloo", "Zanytacular", "Zanyzilla", "Zanynado", "Goofytastic", "Goofyerific", "Goofyadoodle", "Goofyaroni", "Goofyaroo", "Goofyaloo", "Goofytacular", "Goofyzilla", "Goofynado", "Loopytastic", "Loopyerific", "Loopyadoodle", "Loopyaroni", "Loopyaroo", "Loopyaloo", "Loopytacular", "Loopyzilla", "Loopynado", "Bubblytastic", "Bubblyerific", "Bubblyadoodle", "Bubblyaroni", "Bubblyaroo", "Bubblyaloo", "Bubblytacular", "Bubblyzilla", "Bubblynado", "Snappytastic", "Snappyerific", "Snappyadoodle", "Snappyaroni", "Snappyaroo", "Snappyaloo", "Snappytacular", "Snappyzilla", "Snappynado", "Wackytastic", "Wackyerific", "Wackyadoodle", "Wackyaroni", "Wackyaroo", "Wackyaloo", "Wackytacular", "Wackyzilla", "Wackynado", "Fluffytastic", "Fluffyerific", "Fluffyadoodle", "Fluffyaroni", "Fluffyaroo", "Fluffyaloo", "Fluffytacular", "Fluffyzilla", "Fluffynado", "Jumpytastic", "Jumpyerific", "Jumpyadoodle", "Jumpyaroni", "Jumpyaroo", "Jumpyaloo", "Jumpytacular", "Jumpyzilla", "Jumpynado", "Grumpytastic", "Grumpyerific", "Grumpyadoodle", "Grumpyaroni", "Grumpyaroo", "Grumpyaloo", "Grumpytacular", "Grumpyzilla", "Grumpynado", "Blinkybeans", "Blinkybounce", "Blinkybubbles", "Blinkycrunch", "Blinkyfizz", "Blinkygiggle", "Blinkymonster", "Blinkynugget", "Blinkysizzle", "Blinkysocks", "Blinkysprout", "Blinkytwist", "Blinkywiggle", "Breezybeans", "Breezybounce", "Breezybubbles", "Breezycrunch", "Breezyfizz", "Breezygiggle", "Breezymonster", "Breezynugget", "Breezypop", "Breezysocks", "Breezysprout", "Breezytwist", "Breezywiggle", "Frumpybounce", "Frumpybubbles", "Frumpygiggle", "Frumpymonster", "Frumpypop", "Frumpysocks", "Frumpysprout", "Frumpywiggle", "Greasybeans", "Greasybounce", "Greasybubbles", "Greasycrunch", "Greasyfizz", "Greasygiggle", "Greasynugget", "Greasypop", "Greasysizzle", "Greasysocks", "Greasysprout", "Greasytwist", "Greasywiggle", "Kookybounce", "Kookybubbles", "Kookycrunch", "Kookyfizz", "Kookymonster", "Kookynugget", "Kookysizzle", "Kookysocks", "Kookysprout", "Kookytwist", "Kookywiggle", "Puffybeans", "Puffybounce", "Puffybubbles", "Puffycrunch", "Puffyfizz", "Puffymonster", "Puffynugget", "Puffypop", "Puffysizzle", "Puffysprout", "Puffytwist", "Puffywiggle", "Scootybeans", "Scootybubbles", "Scootycrunch", "Scootygiggle", "Scootymonster", "Scootynugget", "Scootypop", "Scootysizzle", "Scootysocks", "Scootysprout", "Scootywiggle", "Slinkybeans", "Slinkybounce", "Slinkybubbles", "Slinkycrunch", "Slinkyfizz", "Slinkygiggle", "Slinkymonster", "Slinkynugget", "Slinkypop", "Slinkysizzle", "Slinkysocks", "Slinkysprout", "Slinkywiggle", "Snappybeans", "Snappybounce", "Snappyfizz", "Snappygiggle", "Snappymonster", "Snappypop", "Snappysizzle", "Snappysocks", "Snappysprout", "Snappywiggle", "Snoozybeans", "Snoozybounce", "Snoozybubbles", "Snoozycrunch", "Snoozyfizz", "Snoozygiggle", "Snoozymonster", "Snoozynugget", "Snoozysizzle", "Snoozysocks", "Snoozysprout", "Snoozytwist", "Sparkybeans", "Sparkybounce", "Sparkybubbles", "Sparkyfizz", "Sparkygiggle", "Sparkymonster", "Sparkynugget", "Sparkypop", "Sparkysizzle", "Sparkysocks", "Sparkytwist", "Sparkywiggle", "Swirlybeans", "Swirlybounce", "Swirlybubbles", "Swirlycrunch", "Swirlyfizz", "Swirlygiggle", "Swirlymonster", "Swirlynugget", "Swirlysocks", "Swirlysprout", "Swirlytwist", "Swirlywiggle", "Toastybeans", "Toastybounce", "Toastybubbles", "Toastycrunch", "Toastyfizz", "Toastygiggle", "Toastymonster", "Toastynugget", "Toastypop", "Toastysizzle", "Toastysocks", "Toastytwist", "Toastywiggle", "Zippywiggle"]
+var adjectives = ["Bouncy", "Wiggly", "Goofy", "Zany", "Fluffy", "Silly", "Wacky", "Jumpy", "Snappy", "Loopy", "Nifty", "Peppy", "Giddy", "Grumpy", "Bubbly", "Kooky", "Spunky", "Sneezy", "Smart", "Breezy", "Witty", "Wobbly", "Snoozy", "Wonky", "Jazzy", "Swirly", "Giggly", "Chatty", "Sappy", "Flippy", "Dizzy", "Fuzzy", "Gooey", "Lively", "Mushy", "Dopey", "Happy", "Bashful", "Sleepy", "Plucky", "Snarky", "Zippy", "Cranky", "Gummy", "Zanytastic", "Zanyerific", "Zanyadoodle", "Zanyaroni", "Zanyaroo", "Zanyaloo", "Zanytacular", "Zanyzilla", "Zanynado", "Goofytastic", "Goofyerific", "Goofyadoodle", "Goofyaroni", "Goofyaroo", "Goofyaloo", "Goofytacular", "Goofyzilla", "Goofynado", "Loopytastic", "Loopyerific", "Loopyadoodle", "Loopyaroni", "Loopyaroo", "Loopyaloo", "Loopytacular", "Loopyzilla", "Loopynado", "Bubblytastic", "Bubblyerific", "Bubblyadoodle", "Bubblyaroni", "Bubblyaroo", "Bubblyaloo", "Bubblytacular", "Bubblyzilla", "Bubblynado", "Snappytastic", "Snappyerific", "Snappyadoodle", "Snappyaroni", "Snappyaroo", "Snappyaloo", "Snappytacular", "Snappyzilla", "Snappynado", "Wackytastic", "Wackyerific", "Wackyadoodle", "Wackyaroni", "Wackyaroo", "Wackyaloo", "Wackytacular", "Wackyzilla", "Wackynado", "Fluffytastic", "Fluffyerific", "Fluffyadoodle", "Fluffyaroni", "Fluffyaroo", "Fluffyaloo", "Fluffytacular", "Fluffyzilla", "Fluffynado", "Jumpytastic", "Jumpyerific", "Jumpyadoodle", "Jumpyaroni", "Jumpyaroo", "Jumpyaloo", "Jumpytacular", "Jumpyzilla", "Jumpynado", "Grumpytastic", "Grumpyerific", "Grumpyadoodle", "Grumpyaroni", "Grumpyaroo", "Grumpyaloo", "Grumpytacular", "Grumpyzilla", "Grumpynado", "Blinkybeans", "Blinkybounce", "Blinkybubbles", "Blinkycrunch", "Blinkyfizz", "Blinkygiggle", "Blinkymonster", "Blinkynugget", "Blinkysizzle", "Blinkysocks", "Blinkysprout", "Blinkytwist", "Blinkywiggle", "Breezybeans", "Breezybounce", "Breezybubbles", "Breezycrunch", "Breezyfizz", "Breezygiggle", "Breezymonster", "Breezynugget", "Breezypop", "Breezysocks", "Breezysprout", "Breezytwist", "Breezywiggle", "Frumpybounce", "Frumpybubbles", "Frumpygiggle", "Frumpymonster", "Frumpypop", "Frumpysocks", "Frumpysprout", "Frumpywiggle", "Greasybeans", "Greasybounce", "Greasybubbles", "Greasycrunch", "Greasyfizz", "Greasygiggle", "Greasynugget", "Greasypop", "Greasysizzle", "Greasysocks", "Greasysprout", "Greasytwist", "Greasywiggle", "Kookybounce", "Kookybubbles", "Kookycrunch", "Kookyfizz", "Kookymonster", "Kookynugget", "Kookysizzle", "Kookysocks", "Kookysprout", "Kookytwist", "Kookywiggle", "Puffybeans", "Puffybounce", "Puffybubbles", "Puffycrunch", "Puffyfizz", "Puffymonster", "Puffynugget", "Puffypop", "Puffysizzle", "Puffysprout", "Puffytwist", "Puffywiggle", "Scootybeans", "Scootybubbles", "Scootycrunch", "Scootygiggle", "Scootymonster", "Scootynugget", "Scootypop", "Scootysizzle", "Scootysocks", "Scootysprout", "Scootywiggle", "Slinkybeans", "Slinkybounce", "Slinkybubbles", "Slinkycrunch", "Slinkyfizz", "Slinkygiggle", "Slinkymonster", "Slinkynugget", "Slinkypop", "Slinkysizzle", "Slinkysocks", "Slinkysprout", "Slinkywiggle", "Snappybeans", "Snappybounce", "Snappyfizz", "Snappygiggle", "Snappymonster", "Snappypop", "Snappysizzle", "Snappysocks", "Snappysprout", "Snappywiggle", "Snoozybeans", "Snoozybounce", "Snoozybubbles", "Snoozycrunch", "Snoozyfizz", "Snoozygiggle", "Snoozymonster", "Snoozynugget", "Snoozysizzle", "Snoozysocks", "Snoozysprout", "Snoozytwist", "Sparkybeans", "Sparkybounce", "Sparkybubbles", "Sparkyfizz", "Sparkygiggle", "Sparkymonster", "Sparkynugget", "Sparkypop", "Sparkysizzle", "Sparkysocks", "Sparkytwist", "Sparkywiggle", "Swirlybeans", "Swirlybounce", "Swirlybubbles", "Swirlycrunch", "Swirlyfizz", "Swirlygiggle", "Swirlymonster", "Swirlynugget", "Swirlysocks", "Swirlysprout", "Swirlytwist", "Swirlywiggle", "Toastybeans", "Toastybounce", "Toastybubbles", "Toastycrunch", "Toastyfizz", "Toastygiggle", "Toastymonster", "Toastynugget", "Toastypop", "Toastysizzle", "Toastysocks", "Toastytwist", "Toastywiggle", "Zippywiggle"];
 
 var animals = ["Aardvark", "Alpaca", "Antelope", "Armadillo", "Baboon", "Badger", "Bat", "Bear", "Beaver", "Bison", "Boar", "Buffalo", "Camel", "Capybara", "Caribou", "Cat", "Cheetah", "Chipmunk", "Coyote", "Deer", "Dog", "Elephant", "Elk", "Ferret", "Fox", "Gazelle", "Giraffe", "Goat", "Groundhog", "Guinea Pig", "Hamster", "Hare", "Hedgehog", "Hippopotamus", "Horse", "Hyena", "Jaguar", "Kangaroo", "Koala", "Leopard", "Lion", "Llama", "Lynx", "Mole", "Moose", "Mouse", "Opossum", "Otter", "Ox", "Panda", "Panther", "Pig", "Polar Bear", "Porcupine", "Puma", "Rabbit", "Raccoon", "Rat", "Reindeer", "Rhinoceros", "Sheep", "Skunk", "Sloth", "Squirrel", "Tiger", "Walrus", "Weasel", "Whale", "Wildcat", "Wolf", "Wombat", "Woodchuck", "Zebra", "Blackbird", "Blue Jay", "Canary", "Cardinal", "Chickadee", "Chicken", "Crane", "Crow", "Dove", "Duck", "Eagle", "Egret", "Falcon", "Flamingo", "Goose", "Hawk", "Hummingbird", "Jay", "Kingfisher", "Kiwi", "Magpie", "Mockingbird", "Nightingale", "Ostrich", "Owl", "Parrot", "Partridge", "Peacock", "Pelican", "Penguin", "Quail", "Raven", "Robin", "Rooster", "Sparrow", "Starling", "Swan", "Toucan", "Turkey", "Alligator", "Cobra", "Crocodile", "Frog", "Gecko", "Iguana", "Lizard", "Salamander", "Toad", "Tortoise", "Turtle", "Angelfish", "Barracuda", "Bluefish", "Carp", "Clownfish", "Cod", "Dolphin", "Flounder", "Herring", "Lobster", "Mackerel", "Manatee", "Marlin", "Mollusk", "Manta Ray", "Orca", "Perch", "Piranha", "Salmon", "Seahorse", "Seal", "Shark", "Stingray", "Trout", "Zebrafish", "Ant", "Aphid", "Bee", "Beetle", "Caterpillar", "Dragonfly", "Firefly", "Grasshopper", "Locust", "Spider", "Wasp", "Calf", "Chimpanzee", "Cub", "Fawn", "Foal", "Goldfish", "Hen", "Starfish"]
 
@@ -13,6 +13,7 @@ var food = ["Apple", "Apricot", "Artichoke", "Asparagus", "Avocado", "Bacon", "B
 const popup = document.querySelector('.popup');
 const popupText = document.getElementById('popup-text');
 
+
 var popupTexts = [
     "Hey! Let's give you an agent name! Press Start to begin!",
     "Enter your first name, then press the button to get your code name!",
@@ -24,9 +25,9 @@ window.onload = () => {
 };
 
 function playAudio() {
-    const audio = new Audio('TJ and AJ Theme Beat 0001.mp3');
+    const audio = new Audio('Beat 0001 (Remix).mp3');
+    audio.volume = 0.2;
     audio.play();
-    audio.volume = 0.6;
     var startButton = document.getElementById('startButton');
 
     setTimeout(() => {
@@ -35,12 +36,13 @@ function playAudio() {
         audio2.play();
 
         startButton.removeEventListener('click', playAudio);
+        startButton.addEventListener('click', function () {
+            audio2.pause();
+            audio2.currentTime = 0;
 
-        audio2.addEventListener('ended', () => {
-            popup.style.transform = 'translateY(-100%)';
-            startButton.addEventListener('click', startGame);
-
+            startGame()
         });
+
     }, 600);
 
 
@@ -78,6 +80,8 @@ function closeCredits() {
 }
 
 function startGame() {
+    popup.style.transform = 'translateY(-100%)';
+
     document.getElementById('startButton').remove();
     document.querySelector('.startPage').remove();
     document.querySelector('.mainPage').style.display = 'flex';
@@ -89,10 +93,11 @@ function startGame() {
         popupText.innerText = popupTexts[1]
         popup.style.transform = 'translateY(0)';
 
-        audio2.addEventListener('ended', () => {
-            popup.style.transform = 'translateY(-100%)';
-            document.getElementById('agentNameButton').addEventListener('click', generateAgentName)
-        });
+        document.getElementById('agentNameButton').addEventListener('click', function () {
+            audio2.pause();
+            audio2.currentTime = 0;
+            generateAgentName()
+        })
 
     }, 400);
 
@@ -100,6 +105,7 @@ function startGame() {
 
 
 function generateAgentName() {
+    popup.style.transform = 'translateY(-100%)';
     var userName = document.getElementById('name').value;
     document.getElementById('name').value = '';
     document.querySelector('.mainPage').remove();
@@ -107,14 +113,13 @@ function generateAgentName() {
 
     var firstPart = adjectives[Math.floor(Math.random() * adjectives.length)]
 
-    if (userName <= 3 || userName >= 1) {
+    if (userName.length <= 3 || userName.length >= 1) {
         var secondPart = animals[Math.floor(Math.random() * animals.length)];
     } else if (userName.length >= 4 && userName.length <= 5) {
         var secondPart = objects[Math.floor(Math.random() * objects.length)];;
     } else if (userName.length >= 6 && userName.length <= 7) {
         var secondPart = colors[Math.floor(Math.random() * colors.length)];
     } else if (userName.length >= 8 && userName.length <= 9) {
-        var secondPart = nature[Math.floor(Math.random() * nature.length)];
     } else if (userName.length >= 10) {
         var secondPart = food[Math.floor(Math.random() * food.length)];
     } else {
@@ -132,7 +137,7 @@ function generateAgentName() {
         document.querySelector('.loader').remove();
         document.getElementById('agentName').innerText = agentName;
         document.getElementById('playAgain').style.display = 'block';
-    }, 4100);
+    }, 400);
 
     audio.addEventListener('ended', () => {
         popupText.innerText = "Great, " + userName + "- I mean, " + agentName + "! Your agent name is amazing! Press Play Again to get a new one!"

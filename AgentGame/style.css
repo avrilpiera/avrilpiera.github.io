@@ -111,6 +111,10 @@ body {
     background-color: var(--userColor);
 }
 
+.mainPage {
+    align-items: normal;
+}
+
 .mainPage h3 {
     font-size: 2em;
     margin-bottom: 6px;
@@ -199,4 +203,38 @@ body {
     color: #4b0082;
     opacity: 0;
     transition: opacity 2s ease;
+}
+
+@media (max-width: 900px) {
+    .startPage h1 {
+        font-size: 2em;
+    }
+
+
+    .startPage button, .mainPage button, .endPage #playAgain {
+        width: 80%;
+        margin-left: auto;
+  margin-right: auto;
+    }
+
+    .endPage {
+        width: 100%;
+    }
+
+    h1#agentName {
+        word-wrap: anywhere;
+    font-size: 1.4em;
+        word-wrap: break-word;
+    }
+
+    .creditsDiv {
+        width: 95%;
+        padding: 15px;
+        font-size: 0.7em;
+    }
+
+    .menuButtons {
+        right: 10px;
+        top: 10px;
+    }
 }
