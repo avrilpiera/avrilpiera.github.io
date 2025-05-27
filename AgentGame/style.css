@@ -111,9 +111,6 @@ body {
     background-color: var(--userColor);
 }
 
-.mainPage {
-    align-items: normal;
-}
 
 .mainPage h3 {
     font-size: 2em;
